@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P5ejemploDB</string>
+    <string name="error_abrirbd">Problema al abrir la base de datos</string>
+    <string name="error_leerBD">Problema al leer en la base de datos</string>
+</resources>
