@@ -2,11 +2,12 @@ package net.iessochoa.joseantoniolopez.p5ejemplodb;
 
 import android.content.Context;
 import android.database.Cursor;
-import android.support.v4.widget.CursorAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.cursoradapter.widget.CursorAdapter;
 
 import net.iessochoa.joseantoniolopez.p5ejemplodb.model.Alumno;
 import net.iessochoa.joseantoniolopez.p5ejemplodb.model.DBAlumno;

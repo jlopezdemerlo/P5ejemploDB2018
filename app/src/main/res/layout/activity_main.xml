@@ -9,7 +9,7 @@
     tools:context="net.iessochoa.joseantoniolopez.p5ejemplodb.MainActivity">
     <!--Incluimos una barra personalizada con un spinner. Es necesario en styles.xml indicar un estilo sin barra
     style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar-->
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/appbar"
@@ -36,7 +36,7 @@
                 android:id="@+id/spn_Grupos"
                 /></LinearLayout>
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
 
 

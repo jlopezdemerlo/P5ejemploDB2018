@@ -3,9 +3,7 @@ package net.iessochoa.joseantoniolopez.p5ejemplodb;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteConstraintException;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -13,6 +11,9 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import net.iessochoa.joseantoniolopez.p5ejemplodb.model.Alumno;
 import net.iessochoa.joseantoniolopez.p5ejemplodb.model.DBAlumno;
